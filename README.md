@@ -2,8 +2,11 @@
   <img src="assets/dlh-logo.png" alt="DataLeakHunter logo" width="260">
 </p>
 
+<p align="center">
+https://dataleakhunter.com
+</p>
 
-# DataLeakHunter - DLH
+# DataLeakHunter aka DLH
 
 DataLeakHunter(DLH) is a modular system to detect and track sensitive data leaks across Slack, Confluence, Jira, and Trello. It exports ECS/CIM-aligned JSON to SIEM, and can open tickets automatically in Jira and GLPI.
 
