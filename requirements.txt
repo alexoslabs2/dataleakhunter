@@ -1,0 +1,14 @@
+
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.8.2
+pymongo==4.8.0
+slack_sdk==3.33.1
+requests==2.32.3
+streamlit==1.37.1
+python-dateutil==2.9.0.post0
+APScheduler==3.10.4
+streamlit-autorefresh==1.0.1
+pydantic>=2.8
+pydantic-settings>=2.4
+msal>=1.28.0
