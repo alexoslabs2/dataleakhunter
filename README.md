@@ -42,11 +42,6 @@ API → http://localhost:8000 •
   ```bash
   curl -s -X POST "$GLPI_URL/apirest.php/initSession"     -H "App-Token: $GLPI_APP_TOKEN" -H "Content-Type: application/json"     -d '{"user_token":"'"$GLPI_USER_TOKEN"'"}'
   ```
-- **ServiceNow**:
-  ```bash
-  curl -s -u "$SNOW_USERNAME:$SNOW_PASSWORD"     -H "Content-Type: application/json"     -d '{"short_description":"LeakHunter test","description":"hello"}'     "$SNOW_INSTANCE_URL/api/now/table/incident"
-  ```
-
 
 ---
 
